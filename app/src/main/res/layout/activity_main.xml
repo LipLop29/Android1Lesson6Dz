@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/burger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_percon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/percon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/rent_a_car"
+        android:textColor="@color/black"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_burger" />
+
+    <SearchView
+        android:id="@+id/search_1"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/raundar"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_rent" />
+
+    <ImageView
+        android:id="@+id/image_light_blue"
+        android:layout_width="335dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/raundar"
+        android:backgroundTint="@color/light_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_1" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="38dp"
+        android:src="@drawable/velo_man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_1" />
+
+    <ImageView
+        android:id="@+id/img_arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/arrow_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Bogamy"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_arrow_right" />
+
+
+    <ImageView
+        android:id="@+id/imgae_light_pink"
+        android:layout_width="335dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/raundar"
+        android:backgroundTint="@color/light_pink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_light_blue" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="38dp"
+        android:src="@drawable/car"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_light_blue" />
+
+    <ImageView
+        android:id="@+id/img_arrow_right2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/arrow_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_light_blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Bogamy"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_arrow_right2" />
+
+    <ImageView
+        android:layout_width="335dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/raundar"
+        android:backgroundTint="@color/light_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgae_light_pink" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="38dp"
+        android:src="@drawable/big_car"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgae_light_pink" />
+
+    <ImageView
+        android:id="@+id/img_arrow_right3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/arrow_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgae_light_pink" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Bogamy"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_arrow_right3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
